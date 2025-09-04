@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: agent_nudging_frontend
+  description: Nugding Agent
+  annotations:
+    github.com/project-slug: ehteshamnasim/agent_nudging_frontend  
+spec:
+  type: service
+  owner: user:default/ehteshamnasim
+  lifecycle: experimental
