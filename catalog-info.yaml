@@ -1,18 +1,19 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: agent-nudging-frontend
-  title: Agent Nudging Frontend
-  description: Frontend service for the Nudging Agent platform
-  tags:
-    - frontend
-    - react
-    - service
+  name: agent_nudging_frontend
+  description: Nudging Agent Frontend
   annotations:
     github.com/project-slug: ehteshamnasim/agent_nudging_frontend
-    backstage.io/techdocs-ref: dir:.   
+    backstage.io/techdocs-ref: dir:.
+  links:
+    - url: https://github.com/ehteshamnasim/agent_nudging_frontend
+      title: GitHub Repository
+      icon: github
+    - url: https://backstage.io/docs
+      title: Backstage Docs
+      icon: docs
 spec:
   type: service
   owner: user:default/ehteshamnasim
-  system: nudging-platform            
   lifecycle: experimental
