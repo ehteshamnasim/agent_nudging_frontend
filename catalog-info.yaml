@@ -23,5 +23,5 @@ spec:
   type: service
   owner: user:default/ehteshamnasim
   lifecycle: experimental
-   providesApis:
-    - agent-nudging-api  
+  providesApis:         
+    - agent-nudging-api
