@@ -6,6 +6,12 @@ metadata:
   annotations:
     github.com/project-slug: ehteshamnasim/agent_nudging_frontend
     backstage.io/techdocs-ref: dir:.
+  tags:
+    - frontend
+    - react
+    - nudging
+    - langchain
+    - agent
   links:
     - url: https://github.com/ehteshamnasim/agent_nudging_frontend
       title: GitHub Repository
