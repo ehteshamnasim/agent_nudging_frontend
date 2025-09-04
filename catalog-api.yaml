@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: agent-nudging-api
+  description: REST API for Nudging Agent
+spec:
+  type: openapi
+  lifecycle: experimental
+  owner: user:default/ehteshamnasim
+  definition:
+    $text: ./openapi.yaml   # 👈 points to your OpenAPI spec
